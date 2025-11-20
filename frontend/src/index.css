@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --green:#0a1d17; /* deep pub green */
+  --gold:#c9a227; /* brass/gold */
+  --beige:#e7ddc7; /* warm parchment */
+}
+
+html, body, #root { height: 100%; }
+body { background: var(--green); color: var(--beige); }
+
+.text-beige{ color: var(--beige); }
+.bg-pub{ background: var(--green); }
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
